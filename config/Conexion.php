@@ -2,10 +2,10 @@
 
     class Conexion {
 
-        private $host = 'localhost';
-        private $dbname = 'dam';
-        private $usuario = 'keytique';
-        private $password = '1234';
+        private $host = 'sql313.infinityfree.com';
+        private $dbname = 'if0_37481239_XXX';
+        private $usuario = 'if0_37481239';
+        private $password = 'L6gcHruO87Ujaev';
         private $atributos = array(
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, 
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC);
