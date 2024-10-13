@@ -8,7 +8,7 @@
         private $password = 'L6gcHruO87Ujaev';
         private $atributos = array(
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, 
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC);
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC); 
 
         protected $conexion;
 
