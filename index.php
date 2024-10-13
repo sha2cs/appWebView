@@ -8,8 +8,7 @@
         SELECT * FROM tipodedocumentos
     ");
     $sql->execute();
-    $tiposDocumentos = $sql->fetchAll();
-
+    $tiposDocumentos = $sql->fetchAll(
 ?>
 
 <!DOCTYPE html>
